@@ -71,6 +71,8 @@
     <PlatformTarget>x86</PlatformTarget>
     <ErrorReport>prompt</ErrorReport>
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <DocumentationFile>
+    </DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CodeAnalysis, Version=1.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
@@ -238,7 +240,7 @@
     <Compile Include="Examples\RenameVarsIdentifersExample.cs" />
     <Compile Include="Obfuscation\Config.cs" />
     <Compile Include="Obfuscation\EncryptStrings.cs" />
-    <Compile Include="Obfuscation\Mutation.cs" />
+    <Compile Include="Obfuscation\NumProtection.cs" />
     <Compile Include="Obfuscation\Renamers\Classes.cs" />
     <Compile Include="Obfuscation\Renamers\MethodParams.cs" />
     <Compile Include="Obfuscation\Renamers\Methods.cs" />
